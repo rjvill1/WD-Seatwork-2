@@ -9,12 +9,23 @@ header * {
     outline: 1px blue dashed;
 }
 
+section.hero,
+section.hero * {
+    outline: 1px red dashed;
+}
+
 /* Dep */
 header {
     display: flex;
     justify-content: space-between;
-    padding: .3rem .5rem 0;
+    padding: .8rem .5vw 0;
     align-items: center;
+    position: fixed;
+    width: 90vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(rgba(113, 124, 114, 0.836), green, blue, alpha);
+    
 }
 
 header button {
@@ -22,5 +33,59 @@ header button {
     border: none;
     background: transparent;
     font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    height: 6vh;
+    border-bottom: 2px transparent;
+
+    &:hover {
+        background-color: rgba(rgba(202, 226, 204, 0.836), green, blue, alpha);
+        border-bottom: 2px rgba(rgba(83, 101, 136, 0.416), green, blue, alpha) solid;
+
+    }
+
+    &:active {
+        transition: .1s ease-in-out;
+        background-color: rgba(rgba(77, 68, 93, 0.836), green, blue, alpha);
+        border-bottom: 2px rgba(rgba(83, 101, 136, 0.416), green, blue, alpha) solid;
+
+    }
 }
 
+section.hero {
+    display: flex;
+    margin: .3rem .5vw 0;
+    height: 94vh;
+    padding-top: 5vh;
+
+    & .right {
+        width: 70vh;
+    }
+
+    & .left {
+        width: 130vh;
+    }
+}
+
+section.hero .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    & h3 {
+        font-size: 2rem
+   }
+
+    & h1 {
+        font-size: 5rem
+   }
+
+    & h2 {
+        font-size: 3.5rem;
+    }
+
+    & p {
+        font-size: 1.5rem;
+    }
+}
