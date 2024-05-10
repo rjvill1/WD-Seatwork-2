@@ -10,3 +10,17 @@ header * {
 }
 
 /* Dep */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem .5rem 0;
+    align-items: center;
+}
+
+header button {
+    padding: .5rem 1rem;
+    border: none;
+    background: transparent;
+    font-weight: 600;
+}
+
