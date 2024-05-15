@@ -2,19 +2,11 @@
     padding: 0;
     margin: 0;
 }
-
-/* Dev */
-header, 
-header * {
-    outline: 1px blue dashed;
-}
-
-section.hero,
-section.hero * {
-    outline: 1px red dashed;
-}
-
 /* Dep */
+body{
+    background-color: rgb(253, 253, 253);
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -24,30 +16,27 @@ header {
     width: 90vw;
     top: 0;
     left: 0;
-    background-color: rgba(rgba(68, 170, 77, 0.836), green, rgba(3, 3, 10, 0.034), alpha);
+    background-color: rgb(197, 240, 80);
     
 }
 
 header button {
     padding: .5rem 1rem;
-    border: none;
-    background: transparent;
     font-weight: 600;
     cursor: pointer;
     transition: .3s ease-in-out;
-    height: 6vh;
-    border-bottom: 2px transparent;
+    height: 4vh;
 
     &:hover {
-        background-color: rgba(rgba(62, 219, 75, 0.836), green, blue, alpha);
-        border-bottom: 2px rgba(rgba(83, 101, 136, 0.416), green, blue, alpha) solid;
+        background-color: aquamarine;
+        border-bottom: 2px maroon;
 
     }
 
     &:active {
         transition: .1s ease-in-out;
-        background-color: rgba(rgba(77, 68, 93, 0.836), green, blue, alpha);
-        border-bottom: 2px rgba(rgba(83, 101, 136, 0.416), green, blue, alpha) solid;
+        background-color: blueviolet;
+        border-bottom: 2px yellow;
 
     }
 }
@@ -89,3 +78,4 @@ section.hero .left{
         font-size: 1.5rem;
     }
 }
+
