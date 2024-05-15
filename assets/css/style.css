@@ -24,7 +24,7 @@ header {
     width: 90vw;
     top: 0;
     left: 0;
-    background-color: rgba(rgba(68, 170, 77, 0.836), green, blue, alpha);
+    background-color: rgba(rgba(68, 170, 77, 0.836), green, rgba(3, 3, 10, 0.034), alpha);
     
 }
 
@@ -39,7 +39,7 @@ header button {
     border-bottom: 2px transparent;
 
     &:hover {
-        background-color: rgba(rgba(202, 226, 204, 0.836), green, blue, alpha);
+        background-color: rgba(rgba(62, 219, 75, 0.836), green, blue, alpha);
         border-bottom: 2px rgba(rgba(83, 101, 136, 0.416), green, blue, alpha) solid;
 
     }
