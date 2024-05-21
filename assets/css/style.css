@@ -70,6 +70,10 @@ section.hero .left{
         font-size: 4rem
    }
 
+   & span {
+    color: limegreen
+   }
+
     & h2 {
         font-size: 2rem;
     }
