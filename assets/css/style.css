@@ -3,6 +3,9 @@
     margin: 0;
 }
 /* Dep */
+body {
+    background-color: aqua;
+}
 
 header {
     display: flex;
