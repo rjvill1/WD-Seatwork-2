@@ -88,7 +88,7 @@ header button:hover {
 .skills {
     width: 100%;
     position: absolute;
-    top: 65%;
+    top: 85%;
     transform: translateY(-90%);
     text-align: center;
     color: #fff;
