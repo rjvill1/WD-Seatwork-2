@@ -71,5 +71,8 @@ section.hero .right{
     justify-content: center;
 }
 
-
-
+h1 {
+    font-size: 15px;
+    align-content: center;
+    justify-content: center;
+}
