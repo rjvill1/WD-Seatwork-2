@@ -4,7 +4,11 @@
 }
 /* Dep */
 body{
-    background-color: rgb(253, 253, 253);
+    background-image: url(jbcj0uqbihg41.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {

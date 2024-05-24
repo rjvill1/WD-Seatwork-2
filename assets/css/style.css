@@ -3,9 +3,6 @@
     margin: 0;
 }
 /* Dep */
-body{
-    background-color: rgb(253, 253, 253);
-}
 
 header {
     display: flex;
