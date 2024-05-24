@@ -3,50 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seatwork 2</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>RJ</h1>
-        <nav>
-            <a href="pages/page1/index.html">
+        <a href="\index.html">
+        <button>
+         <h1><span></span>RJ</h1>
+        </button></a>
+         <nav>
+            <a href="\pages\page1\index.html">
             <button>
                 <span></span>Skills
             </button></a>
 
-            <a href="pages/page2/index.html">
+            <a href="\pages\page2\index.html">
             <button>
                 <span></span>Education
             </button></a>
 
-            <a href="pages/page3/index.html">
+            <a href="\pages\page3\index.html">
             <button>
                 <span></span>Projects
             </button></a>
         </nav>
     </header>
-
-    <section class="hero">
-        <div class="left">
-            <h3>Welcome to my world</h3>
-            <h1>Hi, I'm <span>RJ</span></h1>
-            <h2>IT0043 - TX03</h2>
-            <p>A college student of <span>Far Eastern University Institute of Technology</span>, currently taking Bachelor of Science in Information Technology specializing in Animation and Game Development.</p>
+    <div class="banner">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="assets\mp4\c94190ed-7a61-42e1-a65f-c71aad28e25a.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Rojge Jericho Villanueva</h1>
+            <h2>IT0043-TX03</h2>
+            <p>A college student of Far Eastern University Institute of Technology. <br>Currently taking The Bachelor of Science in Information Technology specialized in Animation and Game Developemnt</p>
         </div>
-        <div class="right">
-            <div class="video">
-                <video id="myVideo" width="100%" height="100%" controls loop autoplay>
-                    <source src="assets/mp4/00fa3fb7-042a-498a-bfa9-17aa586b41b6.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-        <script>
-            window.onload = function() {
-                var video = document.getElementById("myVideo");
-                video.volume = 0.3;
-            };
-        </script>
-    </section>
+        
+    </div>
 </body>
 </html>

@@ -20,6 +20,8 @@ header {
     text-transform: uppercase;;
 }
 
+
+
 header button {
     padding: .5rem 1rem;
     font-weight: bold;
@@ -55,6 +57,10 @@ header button:hover span {
 
 header button:hover {
     border: none;
+}
+
+header h1 {
+    font-size: 15px;
 }
 
 .content {
