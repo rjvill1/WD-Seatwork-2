@@ -112,3 +112,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+| How To Make Website Using HTML And CSS | Website Design With Html And CSS | Add a background image and darken it, and make the buttons have a transition effect | https://www.youtube.com/watch?v=PgAZ8KzfhO8&t=62s |
+
+|-|-|-|
